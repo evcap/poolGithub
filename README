@@ -4,6 +4,13 @@ The tournament is up and running on Ropsten at 0x2a37F0fE87681282E4305AAd4663245
 
 The source code is available in this repo and is verified on Etherscan. 
 
+This repo contains:
+
+  1. The solidity code for this contract
+  2. A nodejs script which will:
+    a. Return all past events emitted
+    b. Listen for new events
+
 The current version requires 0.001 ETH to register, and pays out the full 0.004 ETH to the winner. 4 participants are required for the runTournament function to be called, which must be done manually.
 
 The contract has many security flaws and is not to be used for anything serious, it is just practice.
