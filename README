@@ -1,0 +1,16 @@
+Welcome to Sean's Pool Tournament! 
+
+The tournament is up and running on Ropsten at 0x2a37F0fE87681282E4305AAd4663245F8be77dae.
+
+The source code is available in this repo and is verified on Etherscan. 
+
+The current version requires 0.001 ETH to register, and pays out the full 0.004 ETH to the winner. 4 participants are required for the runTournament function to be called, which must be done manually.
+
+The contract has many security flaws and is not to be used for anything serious, it is just practice.
+
+TODO: 
+
+- Change the set randNonce function to a constructor, instead of requiring someone to set it. Then remove ability to change it.
+- Add ERC-20 functionality: minting for select addresses; use for tournament entry and payout instead of ETH
+- Add tracking for highest rolls and consecutive, total wins: To be used for:
+- Add NFT store: NFTs like "Pool Champion" requires 50 wins. "Cool Kid" requires having rolled a 100 stylepoint game. etc.
